@@ -1,0 +1,22 @@
+# --- Framework y servidor ---
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+
+# --- Validación de datos ---
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# --- Conexión a PostgreSQL ---
+psycopg2==2.9.10
+
+# --- Seguridad (hash de contraseñas y tokens de sesión) ---
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+
+# --- Configuración por variables de entorno ---
+python-dotenv==1.0.1
+
+# --- Formato/estilo de código (PEP 8) ---
+autopep8==2.3.1
+
+# --- CORS ya viene incluido en FastAPI/Starlette, no requiere paquete aparte ---

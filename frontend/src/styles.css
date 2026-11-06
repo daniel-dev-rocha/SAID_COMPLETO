@@ -318,3 +318,24 @@ body{font-family:var(--font);background:var(--sur);color:var(--g800);min-height:
 
 ::-webkit-scrollbar{width:4px}
 ::-webkit-scrollbar-thumb{background:var(--g200);border-radius:2px}
+
+.logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* mantiene la proporción sin deformar */
+  display: block;
+}
+
+.nav-item,
+.nav-item:hover,
+.nav-item:focus,
+.nav-item:active,
+.nav-item:visited {
+  text-decoration: none;
+}
+.auth-logo-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

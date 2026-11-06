@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
 
+
 export default function LoginScreen() {
   const { login } = useAuth();
   const { showToast } = useToast();
@@ -32,7 +33,7 @@ export default function LoginScreen() {
     <div className="auth-screen">
       <div className="auth-card">
         <div className="auth-logo">
-          <div className="auth-logo-icon">📘</div>
+          <div className="auth-logo-icon"><img src="/public/said_logo.jpeg" alt="logo-icon" /></div>
           <div className="auth-logo-title">SAID</div>
           <div className="auth-logo-sub">Sistema de Aprendizaje Interactivo Digital</div>
         </div>

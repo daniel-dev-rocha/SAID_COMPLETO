@@ -52,7 +52,7 @@ export default function Sidebar() {
     <aside className="sidebar">
       <div className="sidebar-logo">
         <div className="logo-wrap">
-          <div className="logo-icon">📘</div>
+          <div className="logo-icon"><img src="/public/said_logo.jpeg" alt="logo-icon" /></div>
           <div>
             <div className="logo-text">SAID</div>
             <div className="logo-sub">Aprendizaje Interactivo Digital</div>

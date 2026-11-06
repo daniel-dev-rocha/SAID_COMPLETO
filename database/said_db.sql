@@ -179,7 +179,8 @@ INSERT INTO usuario (rol, nombre_usuario, apellido_usuario, correo_usuario, cont
 VALUES
     ('estudiante', 'Leider', 'Rincones', 'leider@said.edu', '$2b$12$0000000000000000000000000000000000000000000000000000'),
     ('estudiante', 'Emily', 'Miranda', 'emily@said.edu', '$2b$12$0000000000000000000000000000000000000000000000000000'),
-    ('administrador', 'Axel', 'Cortes', 'axel@said.edu', '$2b$12$0000000000000000000000000000000000000000000000000000')
+    ('administrador', 'Axel', 'Cortes', 'axel@said.edu', '$2b$12$0000000000000000000000000000000000000000000000000000'),
+    ('estudiante', 'Juanito', 'Alimana', 'prueba@said.edu', '$2b$12$Qp6jB/NdK4PwKhjBEjq/yOFqjBLkW4yenbezGnUnbbJyrK7U1ZcrO')
 ON CONFLICT (correo_usuario) DO NOTHING;
 
 INSERT INTO tipo_tarea (descripcion, color_categoria, id_usuario)
